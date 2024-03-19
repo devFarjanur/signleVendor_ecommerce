@@ -4,6 +4,9 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
+use DB;
+
 
 class UsersTableSeeder extends Seeder
 {
@@ -27,15 +30,15 @@ class UsersTableSeeder extends Seeder
 
             // user
 
-            [
-                'name' => 'User',
-                'username' => 'user',
-                'email' => 'user@gmail.com',
-                'password' => Hash::make('111'),
-                'role' => 'user',
-                'status' => 'active'
-            ],
+            // [
+            //     'name' => 'User',
+            //     'username' => 'user',
+            //     'email' => 'user@gmail.com',
+            //     'password' => Hash::make('111'),
+            //     'role' => 'user',
+            //     'status' => 'active'
+            // ],
 
-        ])
+        ]);
     }
 }
