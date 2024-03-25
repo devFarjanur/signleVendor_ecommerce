@@ -1,3 +1,4 @@
+
 <nav class="sidebar">
       <div class="sidebar-header">
         <a href="#" class="sidebar-brand">
@@ -44,12 +45,12 @@
 
 
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#course" role="button" aria-expanded="false" aria-controls="course">
-              <i class="link-icon" data-feather="book"></i>
+            <a class="nav-link" data-bs-toggle="collapse" href="#product" role="button" aria-expanded="false" aria-controls="product">
+              <i class="link-icon" data-feather="shopping-bag"></i>
               <span class="link-title">Products</span>
               <i class="link-arrow" data-feather="chevron-down"></i>
             </a>
-            <div class="collapse" id="course">
+            <div class="collapse" id="product">
               <ul class="nav sub-menu">
                 <li class="nav-item">
                   <a href="pages/advanced-ui/cropper.html" class="nav-link">All Course</a>
@@ -66,12 +67,12 @@
 
 
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#course" role="button" aria-expanded="false" aria-controls="course">
-              <i class="link-icon" data-feather="book"></i>
+            <a class="nav-link" data-bs-toggle="collapse" href="#order" role="button" aria-expanded="false" aria-controls="order">
+              <i class="link-icon" data-feather="shopping-cart"></i>
               <span class="link-title">Orders</span>
               <i class="link-arrow" data-feather="chevron-down"></i>
             </a>
-            <div class="collapse" id="course">
+            <div class="collapse" id="order">
               <ul class="nav sub-menu">
                 <li class="nav-item">
                   <a href="pages/advanced-ui/cropper.html" class="nav-link">All Course</a>
@@ -85,12 +86,11 @@
               </ul>
             </div>
           </li>
-
 
           <li class="nav-item">
             <a href="pages/apps/chat.html" class="nav-link">
               <i class="link-icon" data-feather="message-square"></i>
-              <span class="link-title">Chat</span>
+              <span class="link-title">Message</span>
             </a>
           </li>
           <li class="nav-item">
