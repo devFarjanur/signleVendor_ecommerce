@@ -42,7 +42,7 @@
                   <a href="pages/advanced-ui/cropper.html" class="nav-link">All Products</a>
                 </li>
                 <li class="nav-item">
-                  <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Add Product</a>
+                  <a href="{{ route('admin.add.product') }}" class="nav-link">Add Product</a>
                 </li>
                 <li class="nav-item">
                   <a href="pages/advanced-ui/sortablejs.html" class="nav-link">Edit Product</a>
