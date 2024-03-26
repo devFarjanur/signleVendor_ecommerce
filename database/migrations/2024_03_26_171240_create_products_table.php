@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('photo')->nullable();
             $table->string('name');
-            $table->integer('price')->nullable();
-            $table->integer('stock')->nullable();
-            $table->text('description');
+            $table->numeric('price')->nullable();
+            $table->numeric('stock')->nullable();
+            $table->string('description');
             $table->timestamps();
         });
     }

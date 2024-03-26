@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Validator;
 
 class AdminController extends Controller
 {
@@ -36,8 +39,8 @@ class AdminController extends Controller
         $validatedInput = $request->validate([ // Rename to validatedInput
             'photo' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'name' => 'required|string|max:255',
-            'price' => 'nullable|string|min:0',
-            'stock' => 'nullable|string|min:0',
+            'price' => 'nullable|numeric|min:0',
+            'stock' => 'nullable|numeric|min:0',
             'description' => 'required|string',
         ]);
 
@@ -46,7 +49,7 @@ class AdminController extends Controller
 
         if ($request->file('photo')) {
             $photo = $request->file('photo');
-            @unlink(public_path('upload/admin_images/'.$data->photo));
+            // @unlink(public_path('upload/admin_images/'.$data->photo));
             $photoName = date('YmdHi').$photo->getClientOriginalName();
             $photo->move(public_path('upload/admin_images'), $photoName);
             $validatedInput['photo'] = $photoName;
