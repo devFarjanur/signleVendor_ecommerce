@@ -26,21 +26,7 @@
             <a class="nav-link" data-bs-toggle="collapse" href="#customer" role="button" aria-expanded="false" aria-controls="customer">
               <i class="link-icon" data-feather="user"></i>
               <span class="link-title">Customers</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
             </a>
-            <div class="collapse" id="customer">
-              <ul class="nav sub-menu">
-                <li class="nav-item">
-                  <a href="pages/advanced-ui/cropper.html" class="nav-link">Customer List</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Add Student</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/advanced-ui/sortablejs.html" class="nav-link">Edit Student</a>
-                </li>
-              </ul>
-            </div>
           </li>
 
 
@@ -53,13 +39,13 @@
             <div class="collapse" id="product">
               <ul class="nav sub-menu">
                 <li class="nav-item">
-                  <a href="pages/advanced-ui/cropper.html" class="nav-link">All Course</a>
+                  <a href="pages/advanced-ui/cropper.html" class="nav-link">All Products</a>
                 </li>
                 <li class="nav-item">
-                  <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Add Course</a>
+                  <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Add Product</a>
                 </li>
                 <li class="nav-item">
-                  <a href="pages/advanced-ui/sortablejs.html" class="nav-link">Edit Course</a>
+                  <a href="pages/advanced-ui/sortablejs.html" class="nav-link">Edit Product</a>
                 </li>
               </ul>
             </div>
@@ -70,21 +56,7 @@
             <a class="nav-link" data-bs-toggle="collapse" href="#order" role="button" aria-expanded="false" aria-controls="order">
               <i class="link-icon" data-feather="shopping-cart"></i>
               <span class="link-title">Orders</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
             </a>
-            <div class="collapse" id="order">
-              <ul class="nav sub-menu">
-                <li class="nav-item">
-                  <a href="pages/advanced-ui/cropper.html" class="nav-link">All Course</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Add Course</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/advanced-ui/sortablejs.html" class="nav-link">Edit Course</a>
-                </li>
-              </ul>
-            </div>
           </li>
 
           <li class="nav-item">

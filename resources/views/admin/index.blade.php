@@ -28,106 +28,57 @@
 <div class="row">
   <div class="col-12 col-xl-12 stretch-card">
     <div class="row flex-grow-1">
-      <div class="col-md-4 grid-margin stretch-card">
+      <div class="col-md-3 grid-margin stretch-card">
         <div class="card">
           <div class="card-body">
             <div class="d-flex justify-content-between align-items-baseline">
               <h6 class="card-title mb-0">New Customers</h6>
-              <div class="dropdown mb-2">
-                <a type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
-                </div>
-              </div>
             </div>
             <div class="row">
               <div class="col-6 col-md-12 col-xl-5">
                 <h3 class="mb-2">3,897</h3>
-                <div class="d-flex align-items-baseline">
-                  <p class="text-success">
-                    <span>+3.3%</span>
-                    <i data-feather="arrow-up" class="icon-sm mb-1"></i>
-                  </p>
-                </div>
-              </div>
-              <div class="col-6 col-md-12 col-xl-7">
-                <div id="customersChart" class="mt-md-3 mt-xl-0"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 grid-margin stretch-card">
+      <div class="col-md-3 grid-margin stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-baseline">
+              <h6 class="card-title mb-0">New Customers</h6>
+            </div>
+            <div class="row">
+              <div class="col-6 col-md-12 col-xl-5">
+                <h3 class="mb-2">3,897</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 grid-margin stretch-card">
         <div class="card">
           <div class="card-body">
             <div class="d-flex justify-content-between align-items-baseline">
               <h6 class="card-title mb-0">New Orders</h6>
-              <div class="dropdown mb-2">
-                <a type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
-                </div>
-              </div>
             </div>
             <div class="row">
               <div class="col-6 col-md-12 col-xl-5">
                 <h3 class="mb-2">35,084</h3>
-                <div class="d-flex align-items-baseline">
-                  <p class="text-danger">
-                    <span>-2.8%</span>
-                    <i data-feather="arrow-down" class="icon-sm mb-1"></i>
-                  </p>
-                </div>
-              </div>
-              <div class="col-6 col-md-12 col-xl-7">
-                <div id="ordersChart" class="mt-md-3 mt-xl-0"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 grid-margin stretch-card">
+      <div class="col-md-3 grid-margin stretch-card">
         <div class="card">
           <div class="card-body">
             <div class="d-flex justify-content-between align-items-baseline">
               <h6 class="card-title mb-0">Growth</h6>
-              <div class="dropdown mb-2">
-                <a type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
-                  <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
-                </div>
-              </div>
             </div>
             <div class="row">
               <div class="col-6 col-md-12 col-xl-5">
-                <h3 class="mb-2">89.87%</h3>
-                <div class="d-flex align-items-baseline">
-                  <p class="text-success">
-                    <span>+2.8%</span>
-                    <i data-feather="arrow-up" class="icon-sm mb-1"></i>
-                  </p>
-                </div>
-              </div>
-              <div class="col-6 col-md-12 col-xl-7">
-                <div id="growthChart" class="mt-md-3 mt-xl-0"></div>
+                <h3 class="mb-2">89.87</h3>
               </div>
             </div>
           </div>
@@ -135,8 +86,7 @@
       </div>
     </div>
   </div>
-</div> <!-- row -->
-
+</div>
 
 <div class="row">
   <div class="col-lg-7 col-xl-8 grid-margin stretch-card">
@@ -144,20 +94,8 @@
       <div class="card-body">
         <div class="d-flex justify-content-between align-items-baseline mb-2">
           <h6 class="card-title mb-0">Monthly sales</h6>
-          <div class="dropdown mb-2">
-            <a type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
-            </div>
-          </div>
         </div>
-        <p class="text-muted">Sales are activities related to selling or the number of goods or services sold in a given time period.</p>
+        <p class="text-muted mb-2">Sales are activities related to selling or the number of goods or services sold in a given time period.</p>
         <div id="monthlySalesChart"></div>
       </div> 
     </div>
@@ -167,18 +105,6 @@
       <div class="card-body">
         <div class="d-flex justify-content-between align-items-baseline">
           <h6 class="card-title mb-0">Cloud storage</h6>
-          <div class="dropdown mb-2">
-            <a type="button" id="dropdownMenuButton5" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
-              <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
-            </div>
-          </div>
         </div>
         <div id="storageChart"></div>
         <div class="row mb-3">
@@ -204,6 +130,83 @@
 </div> <!-- row -->
 
 <div class="row">
+<div class="col-12 stretch-card">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-baseline mb-2">
+          <h6 class="card-title mb-0">Recents Orders</h6>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-hover mb-0">
+            <thead>
+              <tr>
+                <th class="pt-0">Order Id</th>
+                <th class="pt-0">Customer</th>
+                <th class="pt-0">Product</th>
+                <th class="pt-0">Amount</th>
+                <th class="pt-0">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Fahim</td>
+                <td>Leather bag</td>
+                <td>$98.00</td>
+                <td><span class="badge bg-success">Paid</span></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Mahim</td>
+                <td>Fashion jeket</td>
+                <td>$55.00</td>
+                <td><span class="badge bg-danger">Pending</span></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Likhon</td>
+                <td>Cotton tops</td>
+                <td>$85.00</td>
+                <td><span class="badge bg-danger">Unpaid</span></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Bijoy</td>
+                <td>Black half shirt</td>
+                <td>$50.00</td>
+                <td><span class="badge bg-danger">Unpaid</span></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Rahim</td>
+                <td>Leather shoe</td>
+                <td>$60.00</td>
+                <td><span class="badge bg-danger">Unpaid</span></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Karim</td>
+                <td>Leather bag</td>
+                <td>$98.00</td>
+                <td><span class="badge bg-success">Paid</span></td>
+              </tr>
+              <tr>
+                <td class="border-bottom">7</td>
+                <td class="border-bottom">Hasem</td>
+                <td class="border-bottom">Fashion jeket</td>
+                <td class="border-bottom">$55.00</td>
+                <td class="border-bottom"><span class="badge bg-danger">Pending</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="row">
   <div class="col-lg-5 col-xl-4 grid-margin grid-margin-xl-0 stretch-card">
     <div class="card">
       <div class="card-body">
@@ -381,7 +384,7 @@
       </div> 
     </div>
   </div>
-</div> <!-- row -->
+</div> -->
 </div>
 
 
