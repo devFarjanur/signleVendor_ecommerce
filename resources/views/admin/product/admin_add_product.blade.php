@@ -19,6 +19,9 @@
     <div class="card-body">
 
                 <h6 class="card-title">Add Product</h6>
+                <!-- <div class="d-flex justify-content-end">
+                    <button class="btn btn-primary">Primary</button>
+                </div> -->
 
                 <form method="POST" action=" {{ route('admin.product.store') }} " enctype="multipart/form-data">
                 @csrf 
@@ -41,15 +44,15 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Product Price</label>
-                        <input type="number" class="form-control" name="price" id="price" placeholder="price">
+                        <input type="text" class="form-control" name="price" id="price" placeholder="price">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Product Stock</label>
-                        <input type="number" class="form-control" name="stock" id="stock" placeholder="stock">
+                        <input type="text" class="form-control" name="stock" id="stock" placeholder="stock">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Product Description</label>
-                        <textarea id="description" name="description" class="form-control" rows="5" placeholder="Enter a detailed description of your product..."></textarea>
+                        <textarea id="description" name="description" class="form-control" rows="8" placeholder="Enter a detailed description of your product..."></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary me-2">Submit</button>

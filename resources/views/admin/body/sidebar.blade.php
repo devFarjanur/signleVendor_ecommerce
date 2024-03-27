@@ -39,7 +39,7 @@
             <div class="collapse" id="product">
               <ul class="nav sub-menu">
                 <li class="nav-item">
-                  <a href="pages/advanced-ui/cropper.html" class="nav-link">All Products</a>
+                  <a href="{{ route('admin.product') }}" class="nav-link">All Products</a>
                 </li>
                 <li class="nav-item">
                   <a href="{{ route('admin.add.product') }}" class="nav-link">Add Product</a>

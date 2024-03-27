@@ -44,8 +44,13 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
 
 
     // admin product
+
+    Route::get('/admin/product', [AdminController::class, 'AdminProduct'])->name('admin.product');
     Route::get('/admin/add/product', [AdminController::class, 'AdminAddProduct'])->name('admin.add.product');
     Route::post('/admin/product/store', [AdminController::class, 'AdminProductStore'])->name('admin.product.store');
+    Route::get('/admin/product/edit', [AdminController::class, 'AdminAddProduct'])->name('admin.edit.product');
+    Route::get('/admin/product/view', [AdminController::class, 'AdminProductView'])->name('admin.product.view');
+
     
 
 });  // End Admin group middleware

@@ -30,17 +30,23 @@ class AdminController extends Controller
     
     // admin product
 
+    public function AdminProduct(){
+        $products = Product::all();
+        return view('admin.product/admin_product',compact('products'));
+    } // end method
+
+
     public function AdminAddProduct(){
-        return view('admin.admin_add_product');
+        return view('admin.product/admin_add_product');
     } // end method
 
     public function AdminProductStore(Request $request)
     {
         $validatedInput = $request->validate([ // Rename to validatedInput
-            'photo' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'photo' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
             'name' => 'required|string|max:255',
-            'price' => 'nullable|numeric|min:0',
-            'stock' => 'nullable|numeric|min:0',
+            'price' => 'nullable|string|min:0',
+            'stock' => 'nullable|string|min:0',
             'description' => 'required|string',
         ]);
 
@@ -61,13 +67,16 @@ class AdminController extends Controller
         $product = Product::create($validatedInput);
     
         $notification = array(
-            'message' => 'Course Created Successfully',
+            'message' => 'Product Added Successfully',
             'alter-type' => 'success'
         );
 
 
         return redirect()->back()->with($notification);
     } // end method
+
+
+    // public function AdminProductShow
 
 
 
